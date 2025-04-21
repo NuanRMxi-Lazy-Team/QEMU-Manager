@@ -22,10 +22,6 @@ namespace QEMUManager
                 return;
             }
 
-
-            //命令初始化
-
-
             string command = qemuExecutable;
 
             if (rbBootFromCDROM.Checked)
@@ -54,6 +50,7 @@ namespace QEMUManager
             {
                 command += $" -m \"{MemSize.Text}\"";
             }
+
             if (chkUseSDL.Checked)
             {
                 command += " -sdl";
@@ -99,10 +96,8 @@ namespace QEMUManager
                 command += " -rtc base=localtime,clock=host";
             }
 
-            // 处理网卡类型
             if (!string.IsNullOrEmpty(NetworkCardType.Text))
             {
-                // 提取括号内的字段
                 int startIndex = NetworkCardType.Text.IndexOf('(') + 1;
                 int endIndex = NetworkCardType.Text.IndexOf(')');
                 if (startIndex > 0 && endIndex > startIndex)
@@ -111,7 +106,6 @@ namespace QEMUManager
                     command += $" -net nic,model={model}";
                 }
             }
-
 
             if (EnableBalloon.Checked)
             {
@@ -132,14 +126,17 @@ namespace QEMUManager
                         command += $" -pflash \"{FirmwarePath.Text}\"";
                     }
                     else
-                        MessageBox.Show("选用UEFI启动时，必须要指定一个EFI固件！", "固件路径不得为空", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                    
+                    {
+                        MessageBox.Show("选用 UEFI 启动时，必须要指定一个 EFI 固件！", "固件路径不得为空", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                    break;
                 case "Legacy BIOS":
                     break;
+                default:
+                    MessageBox.Show("未知的启动方式！", "启动方式错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
             }
-
-            
 
             string videocardModel = VideocardModel.Text;
             switch (videocardModel)
@@ -183,6 +180,18 @@ namespace QEMUManager
                 command += $" -M {MachineType.Text}";
             }
 
+            string cpuModel = CPUModel.Text;
+            if (!string.IsNullOrEmpty(cpuModel))
+            {
+                command += $" -cpu {cpuModel}";
+            }
+
+            string cpuThreads = CPUThreads.Text;
+            if (!string.IsNullOrEmpty(cpuThreads))
+            {
+                command += $" -smp {cpuThreads}";
+            }
+
             try
             {
                 qemuProcess = Process.Start(new ProcessStartInfo
@@ -214,6 +223,11 @@ namespace QEMUManager
                 qemuProcess.Kill();
                 MessageBox.Show("QEMU 已终止", "操作成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void btnHotSwap_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("目前此功能有些问题，我们仍在努力修复","UNDER CONSTRUCTION",MessageBoxButtons.OK);
         }
 
         private void btnCreateImage_Click(object sender, EventArgs e)
@@ -303,6 +317,8 @@ namespace QEMUManager
                     writer.WriteLine($"SyncHostClock={SyncHostClock.Checked}");
                     writer.WriteLine($"NetworkCardType={NetworkCardType.Text}");
                     writer.WriteLine($"EnbaleNetUser={EnbaleNetUser.Checked}");
+                    writer.WriteLine($"CPUModel={CPUModel.Text}");
+                    writer.WriteLine($"CPUThreads={CPUThreads.Text}");
                 }
                 MessageBox.Show("配置已保存！", "成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -378,6 +394,14 @@ namespace QEMUManager
                             {
                                 EnbaleNetUser.Checked = bool.Parse(line.Split('=')[1]);
                             }
+                            else if (line.StartsWith("CPUModel="))
+                            {
+                                CPUModel.Text = line.Split('=')[1];
+                            }
+                            else if (line.StartsWith("CPUThreads="))
+                            {
+                                CPUThreads.Text = line.Split('=')[1];
+                            }
                         }
                     }
                     MessageBox.Show("配置已加载！", "成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -388,5 +412,11 @@ namespace QEMUManager
                 }
             }
         }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

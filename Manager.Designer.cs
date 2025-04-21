@@ -57,6 +57,10 @@
             EnbaleNetUser = new CheckBox();
             EnableSoundCard = new CheckBox();
             HardwareOptions = new GroupBox();
+            CPUThreads = new ComboBox();
+            label15 = new Label();
+            CPUModel = new ComboBox();
+            label14 = new Label();
             MemSize = new TextBox();
             label12 = new Label();
             MachineType = new ComboBox();
@@ -69,6 +73,7 @@
             label13 = new Label();
             SaveConfigure = new Button();
             ReadConfigure = new Button();
+            btnHotSwap = new Button();
             USBOptions.SuspendLayout();
             VirtIOOptions.SuspendLayout();
             BootOptions.SuspendLayout();
@@ -192,13 +197,13 @@
             // 
             // USBOptions
             // 
-            resources.ApplyResources(USBOptions, "USBOptions");
             USBOptions.Controls.Add(label7);
             USBOptions.Controls.Add(USBMassType);
             USBOptions.Controls.Add(EnableUSBMass);
             USBOptions.Controls.Add(EnableUSBMouse);
             USBOptions.Controls.Add(EnableUSBTablet);
             USBOptions.Controls.Add(EnableUSBKeyboard);
+            resources.ApplyResources(USBOptions, "USBOptions");
             USBOptions.Name = "USBOptions";
             USBOptions.TabStop = false;
             // 
@@ -209,8 +214,8 @@
             // 
             // USBMassType
             // 
-            resources.ApplyResources(USBMassType, "USBMassType");
             USBMassType.FormattingEnabled = true;
+            resources.ApplyResources(USBMassType, "USBMassType");
             USBMassType.Name = "USBMassType";
             // 
             // EnableUSBMass
@@ -239,10 +244,10 @@
             // 
             // VirtIOOptions
             // 
-            resources.ApplyResources(VirtIOOptions, "VirtIOOptions");
             VirtIOOptions.Controls.Add(EnableRNG);
             VirtIOOptions.Controls.Add(EnableSerial);
             VirtIOOptions.Controls.Add(EnableBalloon);
+            resources.ApplyResources(VirtIOOptions, "VirtIOOptions");
             VirtIOOptions.Name = "VirtIOOptions";
             VirtIOOptions.TabStop = false;
             // 
@@ -266,13 +271,13 @@
             // 
             // BootOptions
             // 
-            resources.ApplyResources(BootOptions, "BootOptions");
             BootOptions.Controls.Add(label9);
             BootOptions.Controls.Add(FirmwarePath);
             BootOptions.Controls.Add(rbBootFromCDROM);
             BootOptions.Controls.Add(label8);
             BootOptions.Controls.Add(Boot);
             BootOptions.Controls.Add(rbBootFromHDD);
+            resources.ApplyResources(BootOptions, "BootOptions");
             BootOptions.Name = "BootOptions";
             BootOptions.TabStop = false;
             // 
@@ -293,17 +298,17 @@
             // 
             // Boot
             // 
-            resources.ApplyResources(Boot, "Boot");
             Boot.FormattingEnabled = true;
             Boot.Items.AddRange(new object[] { resources.GetString("Boot.Items"), resources.GetString("Boot.Items1") });
+            resources.ApplyResources(Boot, "Boot");
             Boot.Name = "Boot";
             // 
             // NetworkOptions
             // 
-            resources.ApplyResources(NetworkOptions, "NetworkOptions");
             NetworkOptions.Controls.Add(label4);
             NetworkOptions.Controls.Add(NetworkCardType);
             NetworkOptions.Controls.Add(EnbaleNetUser);
+            resources.ApplyResources(NetworkOptions, "NetworkOptions");
             NetworkOptions.Name = "NetworkOptions";
             NetworkOptions.TabStop = false;
             // 
@@ -314,9 +319,9 @@
             // 
             // NetworkCardType
             // 
-            resources.ApplyResources(NetworkCardType, "NetworkCardType");
             NetworkCardType.FormattingEnabled = true;
             NetworkCardType.Items.AddRange(new object[] { resources.GetString("NetworkCardType.Items"), resources.GetString("NetworkCardType.Items1"), resources.GetString("NetworkCardType.Items2"), resources.GetString("NetworkCardType.Items3"), resources.GetString("NetworkCardType.Items4"), resources.GetString("NetworkCardType.Items5") });
+            resources.ApplyResources(NetworkCardType, "NetworkCardType");
             NetworkCardType.Name = "NetworkCardType";
             // 
             // EnbaleNetUser
@@ -333,7 +338,10 @@
             // 
             // HardwareOptions
             // 
-            resources.ApplyResources(HardwareOptions, "HardwareOptions");
+            HardwareOptions.Controls.Add(CPUThreads);
+            HardwareOptions.Controls.Add(label15);
+            HardwareOptions.Controls.Add(CPUModel);
+            HardwareOptions.Controls.Add(label14);
             HardwareOptions.Controls.Add(MemSize);
             HardwareOptions.Controls.Add(label12);
             HardwareOptions.Controls.Add(MachineType);
@@ -342,8 +350,34 @@
             HardwareOptions.Controls.Add(label10);
             HardwareOptions.Controls.Add(SoundcardModel);
             HardwareOptions.Controls.Add(EnableSoundCard);
+            resources.ApplyResources(HardwareOptions, "HardwareOptions");
             HardwareOptions.Name = "HardwareOptions";
             HardwareOptions.TabStop = false;
+            // 
+            // CPUThreads
+            // 
+            CPUThreads.FormattingEnabled = true;
+            CPUThreads.Items.AddRange(new object[] { resources.GetString("CPUThreads.Items"), resources.GetString("CPUThreads.Items1"), resources.GetString("CPUThreads.Items2"), resources.GetString("CPUThreads.Items3"), resources.GetString("CPUThreads.Items4") });
+            resources.ApplyResources(CPUThreads, "CPUThreads");
+            CPUThreads.Name = "CPUThreads";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(label15, "label15");
+            label15.Name = "label15";
+            // 
+            // CPUModel
+            // 
+            CPUModel.FormattingEnabled = true;
+            CPUModel.Items.AddRange(new object[] { resources.GetString("CPUModel.Items"), resources.GetString("CPUModel.Items1"), resources.GetString("CPUModel.Items2"), resources.GetString("CPUModel.Items3"), resources.GetString("CPUModel.Items4"), resources.GetString("CPUModel.Items5"), resources.GetString("CPUModel.Items6"), resources.GetString("CPUModel.Items7"), resources.GetString("CPUModel.Items8"), resources.GetString("CPUModel.Items9"), resources.GetString("CPUModel.Items10"), resources.GetString("CPUModel.Items11"), resources.GetString("CPUModel.Items12"), resources.GetString("CPUModel.Items13"), resources.GetString("CPUModel.Items14"), resources.GetString("CPUModel.Items15"), resources.GetString("CPUModel.Items16"), resources.GetString("CPUModel.Items17"), resources.GetString("CPUModel.Items18"), resources.GetString("CPUModel.Items19"), resources.GetString("CPUModel.Items20"), resources.GetString("CPUModel.Items21"), resources.GetString("CPUModel.Items22"), resources.GetString("CPUModel.Items23"), resources.GetString("CPUModel.Items24"), resources.GetString("CPUModel.Items25"), resources.GetString("CPUModel.Items26"), resources.GetString("CPUModel.Items27"), resources.GetString("CPUModel.Items28"), resources.GetString("CPUModel.Items29"), resources.GetString("CPUModel.Items30"), resources.GetString("CPUModel.Items31"), resources.GetString("CPUModel.Items32"), resources.GetString("CPUModel.Items33"), resources.GetString("CPUModel.Items34"), resources.GetString("CPUModel.Items35"), resources.GetString("CPUModel.Items36"), resources.GetString("CPUModel.Items37"), resources.GetString("CPUModel.Items38"), resources.GetString("CPUModel.Items39"), resources.GetString("CPUModel.Items40"), resources.GetString("CPUModel.Items41"), resources.GetString("CPUModel.Items42"), resources.GetString("CPUModel.Items43"), resources.GetString("CPUModel.Items44"), resources.GetString("CPUModel.Items45"), resources.GetString("CPUModel.Items46"), resources.GetString("CPUModel.Items47"), resources.GetString("CPUModel.Items48"), resources.GetString("CPUModel.Items49"), resources.GetString("CPUModel.Items50"), resources.GetString("CPUModel.Items51"), resources.GetString("CPUModel.Items52"), resources.GetString("CPUModel.Items53"), resources.GetString("CPUModel.Items54"), resources.GetString("CPUModel.Items55"), resources.GetString("CPUModel.Items56"), resources.GetString("CPUModel.Items57"), resources.GetString("CPUModel.Items58"), resources.GetString("CPUModel.Items59"), resources.GetString("CPUModel.Items60"), resources.GetString("CPUModel.Items61"), resources.GetString("CPUModel.Items62"), resources.GetString("CPUModel.Items63"), resources.GetString("CPUModel.Items64"), resources.GetString("CPUModel.Items65"), resources.GetString("CPUModel.Items66"), resources.GetString("CPUModel.Items67"), resources.GetString("CPUModel.Items68"), resources.GetString("CPUModel.Items69"), resources.GetString("CPUModel.Items70"), resources.GetString("CPUModel.Items71"), resources.GetString("CPUModel.Items72"), resources.GetString("CPUModel.Items73"), resources.GetString("CPUModel.Items74"), resources.GetString("CPUModel.Items75"), resources.GetString("CPUModel.Items76"), resources.GetString("CPUModel.Items77"), resources.GetString("CPUModel.Items78"), resources.GetString("CPUModel.Items79"), resources.GetString("CPUModel.Items80"), resources.GetString("CPUModel.Items81"), resources.GetString("CPUModel.Items82"), resources.GetString("CPUModel.Items83"), resources.GetString("CPUModel.Items84"), resources.GetString("CPUModel.Items85"), resources.GetString("CPUModel.Items86"), resources.GetString("CPUModel.Items87"), resources.GetString("CPUModel.Items88"), resources.GetString("CPUModel.Items89"), resources.GetString("CPUModel.Items90"), resources.GetString("CPUModel.Items91"), resources.GetString("CPUModel.Items92"), resources.GetString("CPUModel.Items93"), resources.GetString("CPUModel.Items94"), resources.GetString("CPUModel.Items95"), resources.GetString("CPUModel.Items96"), resources.GetString("CPUModel.Items97"), resources.GetString("CPUModel.Items98"), resources.GetString("CPUModel.Items99"), resources.GetString("CPUModel.Items100"), resources.GetString("CPUModel.Items101"), resources.GetString("CPUModel.Items102"), resources.GetString("CPUModel.Items103"), resources.GetString("CPUModel.Items104"), resources.GetString("CPUModel.Items105"), resources.GetString("CPUModel.Items106"), resources.GetString("CPUModel.Items107"), resources.GetString("CPUModel.Items108"), resources.GetString("CPUModel.Items109"), resources.GetString("CPUModel.Items110"), resources.GetString("CPUModel.Items111"), resources.GetString("CPUModel.Items112"), resources.GetString("CPUModel.Items113"), resources.GetString("CPUModel.Items114"), resources.GetString("CPUModel.Items115"), resources.GetString("CPUModel.Items116"), resources.GetString("CPUModel.Items117"), resources.GetString("CPUModel.Items118"), resources.GetString("CPUModel.Items119"), resources.GetString("CPUModel.Items120"), resources.GetString("CPUModel.Items121"), resources.GetString("CPUModel.Items122"), resources.GetString("CPUModel.Items123"), resources.GetString("CPUModel.Items124"), resources.GetString("CPUModel.Items125"), resources.GetString("CPUModel.Items126"), resources.GetString("CPUModel.Items127"), resources.GetString("CPUModel.Items128"), resources.GetString("CPUModel.Items129"), resources.GetString("CPUModel.Items130"), resources.GetString("CPUModel.Items131"), resources.GetString("CPUModel.Items132"), resources.GetString("CPUModel.Items133"), resources.GetString("CPUModel.Items134"), resources.GetString("CPUModel.Items135"), resources.GetString("CPUModel.Items136"), resources.GetString("CPUModel.Items137"), resources.GetString("CPUModel.Items138"), resources.GetString("CPUModel.Items139"), resources.GetString("CPUModel.Items140"), resources.GetString("CPUModel.Items141") });
+            resources.ApplyResources(CPUModel, "CPUModel");
+            CPUModel.Name = "CPUModel";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(label14, "label14");
+            label14.Name = "label14";
+            label14.Click += label14_Click;
             // 
             // MemSize
             // 
@@ -357,9 +391,9 @@
             // 
             // MachineType
             // 
-            resources.ApplyResources(MachineType, "MachineType");
             MachineType.FormattingEnabled = true;
             MachineType.Items.AddRange(new object[] { resources.GetString("MachineType.Items"), resources.GetString("MachineType.Items1") });
+            resources.ApplyResources(MachineType, "MachineType");
             MachineType.Name = "MachineType";
             // 
             // label11
@@ -369,9 +403,9 @@
             // 
             // VideocardModel
             // 
-            resources.ApplyResources(VideocardModel, "VideocardModel");
             VideocardModel.FormattingEnabled = true;
             VideocardModel.Items.AddRange(new object[] { resources.GetString("VideocardModel.Items"), resources.GetString("VideocardModel.Items1"), resources.GetString("VideocardModel.Items2") });
+            resources.ApplyResources(VideocardModel, "VideocardModel");
             VideocardModel.Name = "VideocardModel";
             // 
             // label10
@@ -381,8 +415,8 @@
             // 
             // SoundcardModel
             // 
-            resources.ApplyResources(SoundcardModel, "SoundcardModel");
             SoundcardModel.FormattingEnabled = true;
+            resources.ApplyResources(SoundcardModel, "SoundcardModel");
             SoundcardModel.Items.AddRange(new object[] { resources.GetString("SoundcardModel.Items"), resources.GetString("SoundcardModel.Items1"), resources.GetString("SoundcardModel.Items2") });
             SoundcardModel.Name = "SoundcardModel";
             // 
@@ -418,10 +452,18 @@
             ReadConfigure.UseVisualStyleBackColor = true;
             ReadConfigure.Click += ReadConfigure_Click;
             // 
+            // btnHotSwap
+            // 
+            resources.ApplyResources(btnHotSwap, "btnHotSwap");
+            btnHotSwap.Name = "btnHotSwap";
+            btnHotSwap.UseVisualStyleBackColor = true;
+            btnHotSwap.Click += btnHotSwap_Click;
+            // 
             // Manager
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnHotSwap);
             Controls.Add(ReadConfigure);
             Controls.Add(SaveConfigure);
             Controls.Add(label13);
@@ -519,5 +561,10 @@
         private Label label13;
         private Button SaveConfigure;
         private Button ReadConfigure;
+        private Button btnHotSwap;
+        private ComboBox CPUModel;
+        private Label label14;
+        private ComboBox CPUThreads;
+        private Label label15;
     }
 }

@@ -117,479 +117,466 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label9.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;EnableSerial.Name" xml:space="preserve">
-    <value>EnableSerial</value>
-  </data>
-  <data name="&gt;&gt;Boot.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnStartVM.Name" xml:space="preserve">
-    <value>btnStartVM</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtQEMUPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 11</value>
+  </data>
   <data name="txtQEMUPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>349, 23</value>
   </data>
-  <data name="VideocardModel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 64</value>
-  </data>
-  <data name="MachineType.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;MachineType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtQEMUPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;txtQEMUPath.Name" xml:space="preserve">
     <value>txtQEMUPath</value>
   </data>
-  <data name="&gt;&gt;EnableUSBMouse.Name" xml:space="preserve">
-    <value>EnableUSBMouse</value>
+  <data name="&gt;&gt;txtQEMUPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;FirmwarePath.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtQEMUPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtQEMUPath.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="btnBrowseQEMU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 7</value>
+  </data>
+  <data name="btnBrowseQEMU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 30</value>
+  </data>
+  <data name="btnBrowseQEMU.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="txtQEMUPath.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="btnBrowseQEMU.Text" xml:space="preserve">
+    <value>浏览</value>
   </data>
-  <data name="&gt;&gt;VirtIOOptions.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;btnBrowseQEMU.Name" xml:space="preserve">
+    <value>btnBrowseQEMU</value>
   </data>
-  <data name="EnbaleNetUser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 22</value>
+  <data name="&gt;&gt;btnBrowseQEMU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;FirmwarePath.Parent" xml:space="preserve">
-    <value>BootOptions</value>
+  <data name="&gt;&gt;btnBrowseQEMU.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;EnableSerial.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnBrowseQEMU.ZOrder" xml:space="preserve">
+    <value>26</value>
   </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtCDROMPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 50</value>
   </data>
-  <data name="&gt;&gt;USBOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtCDROMPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 23</value>
   </data>
-  <data name="BootOptions.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtCDROMPath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtCDROMPath.Name" xml:space="preserve">
+    <value>txtCDROMPath</value>
+  </data>
+  <data name="&gt;&gt;txtCDROMPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCDROMPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtCDROMPath.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="btnBrowseISO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 50</value>
+  </data>
+  <data name="btnBrowseISO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 30</value>
+  </data>
+  <data name="btnBrowseISO.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnBrowseISO.Text" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseISO.Name" xml:space="preserve">
+    <value>btnBrowseISO</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseISO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseISO.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseISO.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="txtHDDPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 88</value>
+  </data>
+  <data name="txtHDDPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 23</value>
+  </data>
+  <data name="txtHDDPath.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtHDDPath.Name" xml:space="preserve">
+    <value>txtHDDPath</value>
+  </data>
+  <data name="&gt;&gt;txtHDDPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHDDPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtHDDPath.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+  <data name="btnBrowseHDD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 84</value>
+  </data>
+  <data name="btnBrowseHDD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 30</value>
+  </data>
+  <data name="btnBrowseHDD.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnBrowseHDD.Text" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseHDD.Name" xml:space="preserve">
+    <value>btnBrowseHDD</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseHDD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseHDD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseHDD.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="rbBootFromCDROM.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="rbBootFromCDROM.Location" type="System.Drawing.Point, System.Drawing">
     <value>19, 30</value>
   </data>
-  <data name="SaveConfigure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 27</value>
-  </data>
-  <data name="SaveConfigure.Location" type="System.Drawing.Point, System.Drawing">
-    <value>655, 438</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBKeyboard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>显卡类型：</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBMouse.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;EnableSoundCard.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NetworkOptions.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Manager</value>
-  </data>
-  <data name="MachineType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 25</value>
-  </data>
-  <data name="btnBrowseQEMU.Text" xml:space="preserve">
-    <value>浏览</value>
-  </data>
-  <data name="&gt;&gt;USBOptions.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="rbBootFromHDD.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="rbBootFromCDROM.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 21</value>
   </data>
-  <data name="&gt;&gt;EnableRNG.Parent" xml:space="preserve">
-    <value>VirtIOOptions</value>
-  </data>
-  <data name="VirtIOOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 173</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SyncHostClock.Name" xml:space="preserve">
-    <value>SyncHostClock</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseISO.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;USBOptions.Name" xml:space="preserve">
-    <value>USBOptions</value>
-  </data>
-  <data name="EnbaleNetUser.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtCDROMPath.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="SyncHostClock.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBMass.Name" xml:space="preserve">
-    <value>EnableUSBMass</value>
-  </data>
-  <data name="EnableBalloon.Text" xml:space="preserve">
-    <value>启用内存气球</value>
-  </data>
-  <data name="EnableUSBMass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 111</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="SoundcardModel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>On</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>机器类型：</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 88</value>
-  </data>
-  <data name="SoundcardModel.Items1" xml:space="preserve">
-    <value>Intel 82801AA AC97</value>
-  </data>
-  <data name="chkUseHAXM.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="EnableUSBKeyboard.Text" xml:space="preserve">
-    <value>启用USB键盘</value>
-  </data>
-  <data name="VirtIOOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>317, 242</value>
-  </data>
-  <data name="btnStartVM.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="btnBrowseISO.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 30</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Boot.Parent" xml:space="preserve">
-    <value>BootOptions</value>
-  </data>
-  <data name="&gt;&gt;txtHDDPath.Name" xml:space="preserve">
-    <value>txtHDDPath</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>硬盘 (VHD/QCOW2) 路径:</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="EnableUSBMass.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="EnableBalloon.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;EnableRNG.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Boot.Text" xml:space="preserve">
-    <value>UEFI</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtQEMUPath.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="EnableUSBTablet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 21</value>
-  </data>
-  <data name="btnKillVM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 30</value>
-  </data>
-  <data name="USBOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 242</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>HardwareOptions</value>
-  </data>
-  <data name="EnableUSBTablet.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="EnableUSBMouse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 21</value>
-  </data>
-  <data name="&gt;&gt;txtQEMUPath.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="EnableUSBMouse.Text" xml:space="preserve">
-    <value>启用USB鼠标</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>NetworkOptions</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="MemSize.Text" xml:space="preserve">
-    <value>1G</value>
-  </data>
-  <data name="EnableSoundCard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 21</value>
-  </data>
-  <data name="SyncHostClock.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;rbBootFromHDD.Name" xml:space="preserve">
-    <value>rbBootFromHDD</value>
-  </data>
-  <data name="EnableUSBMouse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 84</value>
-  </data>
-  <data name="chkUseSDL.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="USBMassType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 138</value>
-  </data>
-  <data name="MachineType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 95</value>
-  </data>
-  <data name="chkEnableUSB.Text" xml:space="preserve">
-    <value>使用 USB</value>
-  </data>
-  <data name="&gt;&gt;btnKillVM.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;VirtIOOptions.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="MachineType.Text" xml:space="preserve">
-    <value>i440fx</value>
-  </data>
-  <data name="chkUseHAXM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 148</value>
-  </data>
-  <data name="&gt;&gt;EnbaleNetUser.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtHDDPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;USBMassType.Name" xml:space="preserve">
-    <value>USBMassType</value>
-  </data>
-  <data name="&gt;&gt;Boot.Name" xml:space="preserve">
-    <value>Boot</value>
-  </data>
-  <data name="HardwareOptions.Text" xml:space="preserve">
-    <value>硬件选项</value>
-  </data>
-  <data name="&gt;&gt;MachineType.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Boot.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <data name="&gt;&gt;EnableSerial.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="&gt;&gt;chkUseSDL.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;NetworkCardType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EnbaleNetUser.Name" xml:space="preserve">
-    <value>EnbaleNetUser</value>
-  </data>
-  <data name="&gt;&gt;SaveConfigure.Name" xml:space="preserve">
-    <value>SaveConfigure</value>
-  </data>
-  <data name="btnCreateImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>438, 192</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="rbBootFromCDROM.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rbBootFromCDROM.Text" xml:space="preserve">
+    <value>从光盘启动</value>
   </data>
   <data name="&gt;&gt;rbBootFromCDROM.Name" xml:space="preserve">
     <value>rbBootFromCDROM</value>
   </data>
-  <data name="&gt;&gt;btnBrowseQEMU.Name" xml:space="preserve">
-    <value>btnBrowseQEMU</value>
+  <data name="&gt;&gt;rbBootFromCDROM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbBootFromCDROM.Parent" xml:space="preserve">
+    <value>BootOptions</value>
+  </data>
+  <data name="&gt;&gt;rbBootFromCDROM.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbBootFromHDD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbBootFromHDD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 59</value>
+  </data>
+  <data name="rbBootFromHDD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="rbBootFromHDD.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rbBootFromHDD.Text" xml:space="preserve">
+    <value>从硬盘启动</value>
+  </data>
+  <data name="&gt;&gt;rbBootFromHDD.Name" xml:space="preserve">
+    <value>rbBootFromHDD</value>
   </data>
   <data name="&gt;&gt;rbBootFromHDD.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="rbBootFromCDROM.AutoSize" type="System.Boolean, mscorlib">
+  <data name="&gt;&gt;rbBootFromHDD.Parent" xml:space="preserve">
+    <value>BootOptions</value>
+  </data>
+  <data name="&gt;&gt;rbBootFromHDD.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkUseSDL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkUseSDL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 148</value>
+  </data>
+  <data name="chkUseSDL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="chkUseSDL.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chkUseSDL.Text" xml:space="preserve">
+    <value>使用 SDL 作为窗口库</value>
+  </data>
+  <data name="&gt;&gt;chkUseSDL.Name" xml:space="preserve">
+    <value>chkUseSDL</value>
+  </data>
+  <data name="&gt;&gt;chkUseSDL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkUseSDL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkUseSDL.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="chkUseHAXM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkUseHAXM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 148</value>
+  </data>
+  <data name="chkUseHAXM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="chkUseHAXM.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="chkUseHAXM.Text" xml:space="preserve">
+    <value>使用 Intel HAXM</value>
+  </data>
+  <data name="&gt;&gt;chkUseHAXM.Name" xml:space="preserve">
+    <value>chkUseHAXM</value>
+  </data>
+  <data name="&gt;&gt;chkUseHAXM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkUseHAXM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkUseHAXM.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="chkEnableUSB.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="chkEnableUSB.Location" type="System.Drawing.Point, System.Drawing">
     <value>289, 148</value>
   </data>
-  <data name="&gt;&gt;EnableSerial.Parent" xml:space="preserve">
-    <value>VirtIOOptions</value>
+  <data name="chkEnableUSB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 21</value>
   </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="chkEnableUSB.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="chkEnableUSB.Text" xml:space="preserve">
+    <value>使用 USB</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 17</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>QEMU 管理器</value>
-  </data>
-  <data name="&gt;&gt;EnableSoundCard.Parent" xml:space="preserve">
-    <value>HardwareOptions</value>
-  </data>
-  <data name="EnableUSBTablet.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;HardwareOptions.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="NetworkOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="EnableVirtIODisk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 117</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="&gt;&gt;SaveConfigure.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseHDD.Name" xml:space="preserve">
-    <value>btnBrowseHDD</value>
+  <data name="&gt;&gt;chkEnableUSB.Name" xml:space="preserve">
+    <value>chkEnableUSB</value>
   </data>
   <data name="&gt;&gt;chkEnableUSB.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;MachineType.Name" xml:space="preserve">
-    <value>MachineType</value>
-  </data>
-  <data name="&gt;&gt;SaveConfigure.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBTablet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NetworkCardType.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;VideocardModel.Parent" xml:space="preserve">
-    <value>HardwareOptions</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 17</value>
-  </data>
-  <data name="&gt;&gt;VideocardModel.Name" xml:space="preserve">
-    <value>VideocardModel</value>
-  </data>
-  <data name="EnableUSBMouse.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtQEMUPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NetworkOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="VirtIOOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="USBMassType.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="EnableBalloon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 30</value>
-  </data>
-  <data name="btnBrowseHDD.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="EnableUSBMass.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="&gt;&gt;EnableVirtIODisk.Parent" xml:space="preserve">
+  <data name="&gt;&gt;chkEnableUSB.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="NetworkCardType.Items1" xml:space="preserve">
-    <value>Novell NE2000 (ne2k_isa)</value>
+  <data name="&gt;&gt;chkEnableUSB.ZOrder" xml:space="preserve">
+    <value>21</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="btnStartVM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 192</value>
   </data>
-  <data name="&gt;&gt;SoundcardModel.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="btnStartVM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 30</value>
+  </data>
+  <data name="btnStartVM.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnStartVM.Text" xml:space="preserve">
+    <value>启动虚拟机</value>
+  </data>
+  <data name="&gt;&gt;btnStartVM.Name" xml:space="preserve">
+    <value>btnStartVM</value>
+  </data>
+  <data name="&gt;&gt;btnStartVM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnStartVM.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>BootOptions</value>
+  <data name="&gt;&gt;btnStartVM.ZOrder" xml:space="preserve">
+    <value>18</value>
   </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="btnKillVM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 191</value>
   </data>
-  <data name="&gt;&gt;EnableSoundCard.Name" xml:space="preserve">
-    <value>EnableSoundCard</value>
+  <data name="btnKillVM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 30</value>
   </data>
-  <data name="SaveConfigure.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+  <data name="btnKillVM.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="NetworkCardType.Text" xml:space="preserve">
-    <value>Intel 82574L (e1000e)</value>
+  <data name="btnKillVM.Text" xml:space="preserve">
+    <value>终止 QEMU</value>
   </data>
-  <data name="EnableUSBKeyboard.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;btnKillVM.Name" xml:space="preserve">
+    <value>btnKillVM</value>
+  </data>
+  <data name="&gt;&gt;btnKillVM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnKillVM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnKillVM.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnCreateImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 192</value>
+  </data>
+  <data name="btnCreateImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 30</value>
+  </data>
+  <data name="btnCreateImage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnCreateImage.Text" xml:space="preserve">
+    <value>创建虚拟硬盘</value>
+  </data>
+  <data name="&gt;&gt;btnCreateImage.Name" xml:space="preserve">
+    <value>btnCreateImage</value>
+  </data>
+  <data name="&gt;&gt;btnCreateImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCreateImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCreateImage.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 11</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>QEMU 路径:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 50</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 17</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>CD-ROM (ISO) 路径:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 88</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 17</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>硬盘 (VHD/QCOW2) 路径:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 152</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>其他选项:</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 192</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -597,946 +584,1526 @@
   <data name="label6.Text" xml:space="preserve">
     <value>操作:</value>
   </data>
-  <data name="&gt;&gt;chkEnableUSB.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnKillVM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 192</value>
-  </data>
-  <data name="chkUseHAXM.Text" xml:space="preserve">
-    <value>使用 Intel HAXM</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="USBOptions.Text" xml:space="preserve">
-    <value>USB选项</value>
-  </data>
-  <data name="EnableSerial.Text" xml:space="preserve">
-    <value>启用VirtiO串口</value>
-  </data>
-  <data name="&gt;&gt;txtHDDPath.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;rbBootFromHDD.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="rbBootFromHDD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 59</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBMouse.Parent" xml:space="preserve">
-    <value>USBOptions</value>
-  </data>
-  <data name="&gt;&gt;SoundcardModel.Parent" xml:space="preserve">
-    <value>HardwareOptions</value>
-  </data>
-  <data name="btnBrowseISO.Text" xml:space="preserve">
-    <value>浏览</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 88</value>
-  </data>
-  <data name="&gt;&gt;ReadConfigure.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;EnbaleNetUser.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseHDD.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;EnableBalloon.Name" xml:space="preserve">
-    <value>EnableBalloon</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseISO.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>HardwareOptions</value>
-  </data>
-  <data name="&gt;&gt;HardwareOptions.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;MemSize.Parent" xml:space="preserve">
-    <value>HardwareOptions</value>
-  </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBMass.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;USBMassType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBrowseQEMU.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;EnableBalloon.Parent" xml:space="preserve">
-    <value>VirtIOOptions</value>
-  </data>
-  <data name="EnableRNG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 21</value>
-  </data>
-  <data name="&gt;&gt;BootOptions.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;EnableVirtIODisk.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="EnableSoundCard.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;VirtIOOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SyncHostClock.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="VideocardModel.Items1" xml:space="preserve">
-    <value>Red Hat QXL</value>
-  </data>
-  <data name="USBOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 173</value>
-  </data>
-  <data name="USBMassType.Text" xml:space="preserve">
-    <value>USB CDROM</value>
-  </data>
-  <data name="EnableBalloon.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="SyncHostClock.Text" xml:space="preserve">
-    <value>同步主机时钟</value>
-  </data>
-  <data name="Boot.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 85</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseISO.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="NetworkCardType.Items4" xml:space="preserve">
-    <value>Intel PRO1000/MT (e1000)</value>
-  </data>
-  <data name="&gt;&gt;VirtIOOptions.Name" xml:space="preserve">
-    <value>VirtIOOptions</value>
-  </data>
-  <data name="&gt;&gt;BootOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;HardwareOptions.Name" xml:space="preserve">
-    <value>HardwareOptions</value>
-  </data>
-  <data name="&gt;&gt;chkEnableUSB.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="MemSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 126</value>
-  </data>
-  <data name="SoundcardModel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 25</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 17</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>内存大小：</value>
-  </data>
-  <data name="&gt;&gt;txtHDDPath.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>USBOptions</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBTablet.Name" xml:space="preserve">
-    <value>EnableUSBTablet</value>
-  </data>
-  <data name="&gt;&gt;EnableSoundCard.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 23</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
-  </data>
-  <data name="btnBrowseHDD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 30</value>
-  </data>
-  <data name="&gt;&gt;NetworkCardType.Parent" xml:space="preserve">
-    <value>NetworkOptions</value>
-  </data>
-  <data name="EnableVirtIODisk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;btnStartVM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="EnableUSBMass.Text" xml:space="preserve">
-    <value>启用USB大容量存储设备</value>
-  </data>
-  <data name="&gt;&gt;EnableBalloon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>固件路径</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>启动方式：</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="EnableSerial.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>CD-ROM (ISO) 路径:</value>
-  </data>
-  <data name="EnableUSBMouse.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBTablet.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;rbBootFromCDROM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="rbBootFromCDROM.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="NetworkCardType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 25</value>
-  </data>
-  <data name="&gt;&gt;btnCreateImage.Name" xml:space="preserve">
-    <value>btnCreateImage</value>
-  </data>
-  <data name="btnKillVM.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;EnbaleNetUser.Parent" xml:space="preserve">
-    <value>NetworkOptions</value>
-  </data>
-  <data name="EnbaleNetUser.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="MachineType.Items" xml:space="preserve">
-    <value>i440fx</value>
-  </data>
-  <data name="SoundcardModel.Text" xml:space="preserve">
-    <value>Creative SB16</value>
-  </data>
-  <data name="chkEnableUSB.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="btnStartVM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 192</value>
-  </data>
-  <data name="&gt;&gt;SoundcardModel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EnableRNG.Name" xml:space="preserve">
-    <value>EnableRNG</value>
-  </data>
-  <data name="&gt;&gt;VideocardModel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="HardwareOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtHDDPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 88</value>
-  </data>
-  <data name="&gt;&gt;HardwareOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>867, 482</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;chkUseHAXM.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="btnCreateImage.Text" xml:space="preserve">
-    <value>创建虚拟硬盘</value>
-  </data>
-  <data name="EnableVirtIODisk.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;NetworkCardType.Name" xml:space="preserve">
-    <value>NetworkCardType</value>
-  </data>
-  <data name="&gt;&gt;chkUseSDL.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseHDD.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="BootOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>655, 242</value>
-  </data>
-  <data name="label10.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="EnableUSBKeyboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 21</value>
-  </data>
-  <data name="&gt;&gt;FirmwarePath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="NetworkOptions.Text" xml:space="preserve">
-    <value>网络选项</value>
-  </data>
-  <data name="EnableRNG.Text" xml:space="preserve">
-    <value>启用随机数设备（RNG）</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;EnableBalloon.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;MemSize.Name" xml:space="preserve">
-    <value>MemSize</value>
-  </data>
-  <data name="EnableUSBTablet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 57</value>
-  </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="FirmwarePath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 130</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBTablet.Parent" xml:space="preserve">
-    <value>USBOptions</value>
-  </data>
-  <data name="EnableBalloon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 21</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="EnableSerial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 21</value>
-  </data>
-  <data name="btnStartVM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 30</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="btnBrowseHDD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>550, 84</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>QEMU 路径:</value>
-  </data>
-  <data name="&gt;&gt;FirmwarePath.Name" xml:space="preserve">
-    <value>FirmwarePath</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="NetworkOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>539, 58</value>
-  </data>
-  <data name="EnableUSBKeyboard.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Boot.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="BootOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 173</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBrowseISO.Location" type="System.Drawing.Point, System.Drawing">
-    <value>550, 50</value>
-  </data>
-  <data name="&gt;&gt;btnCreateImage.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;rbBootFromCDROM.Parent" xml:space="preserve">
-    <value>BootOptions</value>
-  </data>
-  <data name="NetworkOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 438</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseHDD.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rbBootFromCDROM.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="rbBootFromHDD.Text" xml:space="preserve">
-    <value>从硬盘启动</value>
-  </data>
-  <data name="MemSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 23</value>
-  </data>
-  <data name="&gt;&gt;btnCreateImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="EnableUSBKeyboard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 30</value>
-  </data>
-  <data name="EnbaleNetUser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 21</value>
   </data>
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnBrowseISO.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;USBOptions.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="NetworkCardType.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="VirtIOOptions.Text" xml:space="preserve">
-    <value>Red Hat VirtIO选项</value>
-  </data>
-  <data name="EnableRNG.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 84</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;btnKillVM.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>其他选项:</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 152</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBKeyboard.Parent" xml:space="preserve">
-    <value>USBOptions</value>
-  </data>
-  <data name="chkUseSDL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 21</value>
-  </data>
-  <data name="EnableSerial.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;chkUseSDL.Name" xml:space="preserve">
-    <value>chkUseSDL</value>
-  </data>
-  <data name="txtCDROMPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>349, 23</value>
-  </data>
-  <data name="&gt;&gt;chkUseHAXM.Name" xml:space="preserve">
-    <value>chkUseHAXM</value>
-  </data>
-  <data name="EnableSerial.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 57</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 110</value>
-  </data>
-  <data name="EnableRNG.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;VideocardModel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="EnableSoundCard.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="txtCDROMPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 50</value>
-  </data>
-  <data name="EnableSoundCard.Text" xml:space="preserve">
-    <value>是否启用声卡</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBMouse.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MemSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ReadConfigure.Text" xml:space="preserve">
-    <value>读取配置</value>
-  </data>
-  <data name="btnCreateImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 30</value>
-  </data>
-  <data name="NetworkCardType.Items5" xml:space="preserve">
-    <value>Red Hat Virtio (virtio)</value>
-  </data>
-  <data name="MachineType.Items1" xml:space="preserve">
-    <value>q35</value>
-  </data>
-  <data name="&gt;&gt;NetworkOptions.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="HardwareOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 186</value>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="btnBrowseHDD.Text" xml:space="preserve">
-    <value>浏览</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;SoundcardModel.Name" xml:space="preserve">
-    <value>SoundcardModel</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>网卡类型</value>
-  </data>
-  <data name="&gt;&gt;SyncHostClock.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="EnableSoundCard.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 30</value>
-  </data>
-  <data name="&gt;&gt;btnStartVM.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>HardwareOptions</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 67</value>
-  </data>
-  <data name="EnableVirtIODisk.Text" xml:space="preserve">
-    <value>启用VirtIO SCSI硬盘控制器</value>
-  </data>
-  <data name="EnableVirtIODisk.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="btnCreateImage.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="chkUseHAXM.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="VideocardModel.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="EnableUSBTablet.Text" xml:space="preserve">
-    <value>启用USB触摸装置</value>
-  </data>
-  <data name="chkUseSDL.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="txtHDDPath.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="Boot.Items1" xml:space="preserve">
-    <value>Legacy BIOS</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="MemSize.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseISO.Name" xml:space="preserve">
-    <value>btnBrowseISO</value>
-  </data>
-  <data name="&gt;&gt;SaveConfigure.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;EnableVirtIODisk.Name" xml:space="preserve">
-    <value>EnableVirtIODisk</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBMass.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;rbBootFromHDD.Parent" xml:space="preserve">
-    <value>BootOptions</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnKillVM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="SyncHostClock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 21</value>
-  </data>
-  <data name="&gt;&gt;EnableRNG.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;USBMassType.Parent" xml:space="preserve">
-    <value>USBOptions</value>
-  </data>
-  <data name="&gt;&gt;MemSize.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="VideocardModel.Items" xml:space="preserve">
-    <value>Cirrus 5446 PCI</value>
-  </data>
-  <data name="EnbaleNetUser.Text" xml:space="preserve">
-    <value>启用网络（只能用户模式）</value>
-  </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnStartVM.Text" xml:space="preserve">
-    <value>启动虚拟机</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>993, 508</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseQEMU.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EnableVirtIODisk.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;MachineType.Parent" xml:space="preserve">
-    <value>HardwareOptions</value>
-  </data>
-  <data name="SaveConfigure.Text" xml:space="preserve">
-    <value>保存配置</value>
-  </data>
-  <data name="&gt;&gt;btnCreateImage.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="chkUseSDL.Text" xml:space="preserve">
-    <value>使用 SDL 作为窗口库</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="SoundcardModel.Items" xml:space="preserve">
-    <value>Creative SB16</value>
-  </data>
-  <data name="&gt;&gt;ReadConfigure.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="FirmwarePath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 23</value>
-  </data>
-  <data name="&gt;&gt;txtCDROMPath.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 17</value>
-  </data>
-  <data name="VideocardModel.Text" xml:space="preserve">
-    <value>Cirrus 5446 PCI</value>
-  </data>
-  <data name="NetworkCardType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 20</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 192</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 141</value>
   </data>
-  <data name="&gt;&gt;chkUseHAXM.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
   </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 17</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBKeyboard.Name" xml:space="preserve">
-    <value>EnableUSBKeyboard</value>
-  </data>
-  <data name="ReadConfigure.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;Boot.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="EnableRNG.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="EnableUSBMass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 21</value>
-  </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 126</value>
-  </data>
-  <data name="ReadConfigure.Location" type="System.Drawing.Point, System.Drawing">
-    <value>805, 438</value>
-  </data>
-  <data name="USBOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="btnKillVM.Text" xml:space="preserve">
-    <value>终止 QEMU</value>
-  </data>
-  <data name="NetworkCardType.Items" xml:space="preserve">
-    <value>Intel 82574L (e1000e)</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 50</value>
-  </data>
-  <data name="&gt;&gt;USBMassType.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="EnableVirtIODisk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 21</value>
-  </data>
-  <data name="btnBrowseQEMU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>550, 7</value>
-  </data>
-  <data name="rbBootFromCDROM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 21</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBMass.Parent" xml:space="preserve">
-    <value>USBOptions</value>
-  </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="NetworkCardType.Items3" xml:space="preserve">
-    <value>Realtek RTL8139 (rtl8139)</value>
-  </data>
-  <data name="chkEnableUSB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 21</value>
-  </data>
-  <data name="&gt;&gt;SyncHostClock.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 97</value>
-  </data>
-  <data name="&gt;&gt;EnableUSBKeyboard.ZOrder" xml:space="preserve">
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="SyncHostClock.Location" type="System.Drawing.Point, System.Drawing">
-    <value>503, 148</value>
-  </data>
-  <data name="HardwareOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>662, 11</value>
-  </data>
-  <data name="&gt;&gt;ReadConfigure.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnBrowseQEMU.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkEnableUSB.Name" xml:space="preserve">
-    <value>chkEnableUSB</value>
-  </data>
-  <data name="txtHDDPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>349, 23</value>
-  </data>
-  <data name="SoundcardModel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 26</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>设备类型：</value>
   </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>USBOptions</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="USBMassType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 138</value>
+  </data>
   <data name="USBMassType.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 25</value>
   </data>
-  <data name="VideocardModel.Items2" xml:space="preserve">
-    <value>Red Hat Virtio</value>
+  <data name="USBMassType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 17</value>
+  <data name="USBMassType.Text" xml:space="preserve">
+    <value>USB CDROM</value>
   </data>
-  <data name="txtQEMUPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 11</value>
+  <data name="&gt;&gt;USBMassType.Name" xml:space="preserve">
+    <value>USBMassType</value>
   </data>
-  <data name="&gt;&gt;NetworkOptions.Name" xml:space="preserve">
-    <value>NetworkOptions</value>
+  <data name="&gt;&gt;USBMassType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;chkUseSDL.Type" xml:space="preserve">
+  <data name="&gt;&gt;USBMassType.Parent" xml:space="preserve">
+    <value>USBOptions</value>
+  </data>
+  <data name="&gt;&gt;USBMassType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EnableUSBMass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EnableUSBMass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 111</value>
+  </data>
+  <data name="EnableUSBMass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="EnableUSBMass.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="EnableUSBMass.Text" xml:space="preserve">
+    <value>启用USB大容量存储设备</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBMass.Name" xml:space="preserve">
+    <value>EnableUSBMass</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBMass.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="rbBootFromCDROM.Text" xml:space="preserve">
-    <value>从光盘启动</value>
+  <data name="&gt;&gt;EnableUSBMass.Parent" xml:space="preserve">
+    <value>USBOptions</value>
   </data>
-  <data name="&gt;&gt;txtCDROMPath.Name" xml:space="preserve">
-    <value>txtCDROMPath</value>
+  <data name="&gt;&gt;EnableUSBMass.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="EnableUSBMouse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="EnableUSBMouse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 84</value>
   </data>
-  <data name="SoundcardModel.Items2" xml:space="preserve">
-    <value>Intel ICH6 HDA</value>
+  <data name="EnableUSBMouse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
   </data>
-  <data name="&gt;&gt;txtCDROMPath.Parent" xml:space="preserve">
+  <data name="EnableUSBMouse.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="EnableUSBMouse.Text" xml:space="preserve">
+    <value>启用USB鼠标</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBMouse.Name" xml:space="preserve">
+    <value>EnableUSBMouse</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBMouse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBMouse.Parent" xml:space="preserve">
+    <value>USBOptions</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBMouse.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EnableUSBTablet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EnableUSBTablet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 57</value>
+  </data>
+  <data name="EnableUSBTablet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 21</value>
+  </data>
+  <data name="EnableUSBTablet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="EnableUSBTablet.Text" xml:space="preserve">
+    <value>启用USB触摸装置</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBTablet.Name" xml:space="preserve">
+    <value>EnableUSBTablet</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBTablet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBTablet.Parent" xml:space="preserve">
+    <value>USBOptions</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBTablet.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="EnableUSBKeyboard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EnableUSBKeyboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 30</value>
+  </data>
+  <data name="EnableUSBKeyboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
+  </data>
+  <data name="EnableUSBKeyboard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="EnableUSBKeyboard.Text" xml:space="preserve">
+    <value>启用USB键盘</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBKeyboard.Name" xml:space="preserve">
+    <value>EnableUSBKeyboard</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBKeyboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBKeyboard.Parent" xml:space="preserve">
+    <value>USBOptions</value>
+  </data>
+  <data name="&gt;&gt;EnableUSBKeyboard.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="USBOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 242</value>
+  </data>
+  <data name="USBOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 173</value>
+  </data>
+  <data name="USBOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="USBOptions.Text" xml:space="preserve">
+    <value>USB选项</value>
+  </data>
+  <data name="&gt;&gt;USBOptions.Name" xml:space="preserve">
+    <value>USBOptions</value>
+  </data>
+  <data name="&gt;&gt;USBOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;USBOptions.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="VideocardModel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 25</value>
+  <data name="&gt;&gt;USBOptions.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="EnableRNG.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+  <data name="EnableRNG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 84</value>
+  </data>
+  <data name="EnableRNG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 21</value>
+  </data>
+  <data name="EnableRNG.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="EnableRNG.Text" xml:space="preserve">
+    <value>启用随机数设备（RNG）</value>
+  </data>
+  <data name="&gt;&gt;EnableRNG.Name" xml:space="preserve">
+    <value>EnableRNG</value>
+  </data>
+  <data name="&gt;&gt;EnableRNG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableRNG.Parent" xml:space="preserve">
+    <value>VirtIOOptions</value>
+  </data>
+  <data name="&gt;&gt;EnableRNG.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EnableSerial.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="chkUseHAXM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
+  <data name="EnableSerial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 57</value>
   </data>
-  <data name="&gt;&gt;btnKillVM.Name" xml:space="preserve">
-    <value>btnKillVM</value>
+  <data name="EnableSerial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 21</value>
   </data>
-  <data name="NetworkCardType.Items2" xml:space="preserve">
-    <value>Realtek RTL8029 (en2k_pci)</value>
+  <data name="EnableSerial.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="chkEnableUSB.AutoSize" type="System.Boolean, mscorlib">
+  <data name="EnableSerial.Text" xml:space="preserve">
+    <value>启用VirtiO串口</value>
+  </data>
+  <data name="&gt;&gt;EnableSerial.Name" xml:space="preserve">
+    <value>EnableSerial</value>
+  </data>
+  <data name="&gt;&gt;EnableSerial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableSerial.Parent" xml:space="preserve">
+    <value>VirtIOOptions</value>
+  </data>
+  <data name="&gt;&gt;EnableSerial.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EnableBalloon.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 11</value>
+  <data name="EnableBalloon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="EnableBalloon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
+  </data>
+  <data name="EnableBalloon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="EnableBalloon.Text" xml:space="preserve">
+    <value>启用内存气球</value>
+  </data>
+  <data name="&gt;&gt;EnableBalloon.Name" xml:space="preserve">
+    <value>EnableBalloon</value>
+  </data>
+  <data name="&gt;&gt;EnableBalloon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableBalloon.Parent" xml:space="preserve">
+    <value>VirtIOOptions</value>
+  </data>
+  <data name="&gt;&gt;EnableBalloon.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="VirtIOOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 242</value>
+  </data>
+  <data name="VirtIOOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 173</value>
+  </data>
+  <data name="VirtIOOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="VirtIOOptions.Text" xml:space="preserve">
+    <value>Red Hat VirtIO选项</value>
+  </data>
+  <data name="&gt;&gt;VirtIOOptions.Name" xml:space="preserve">
+    <value>VirtIOOptions</value>
+  </data>
+  <data name="&gt;&gt;VirtIOOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VirtIOOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VirtIOOptions.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 110</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>固件路径</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>BootOptions</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FirmwarePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 130</value>
+  </data>
+  <data name="FirmwarePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 23</value>
   </data>
   <data name="FirmwarePath.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>V1.0.0 By Starmoe</value>
+  <data name="&gt;&gt;FirmwarePath.Name" xml:space="preserve">
+    <value>FirmwarePath</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;FirmwarePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="btnBrowseQEMU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 30</value>
-  </data>
-  <data name="&gt;&gt;BootOptions.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BootOptions.Text" xml:space="preserve">
-    <value>启动选项</value>
-  </data>
-  <data name="rbBootFromHDD.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Boot.Items" xml:space="preserve">
-    <value>UEFI</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="SoundcardModel.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;BootOptions.Name" xml:space="preserve">
+  <data name="&gt;&gt;FirmwarePath.Parent" xml:space="preserve">
     <value>BootOptions</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="&gt;&gt;FirmwarePath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 88</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>启动方式：</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label8.Parent" xml:space="preserve">
     <value>BootOptions</value>
   </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Boot.Items" xml:space="preserve">
+    <value>UEFI</value>
+  </data>
+  <data name="Boot.Items1" xml:space="preserve">
+    <value>Legacy BIOS</value>
+  </data>
+  <data name="Boot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 85</value>
+  </data>
+  <data name="Boot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="Boot.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Boot.Text" xml:space="preserve">
+    <value>UEFI</value>
+  </data>
+  <data name="&gt;&gt;Boot.Name" xml:space="preserve">
+    <value>Boot</value>
+  </data>
+  <data name="&gt;&gt;Boot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Boot.Parent" xml:space="preserve">
+    <value>BootOptions</value>
+  </data>
+  <data name="&gt;&gt;Boot.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BootOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 242</value>
+  </data>
+  <data name="BootOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 173</value>
+  </data>
+  <data name="BootOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="BootOptions.Text" xml:space="preserve">
+    <value>启动选项</value>
+  </data>
+  <data name="&gt;&gt;BootOptions.Name" xml:space="preserve">
+    <value>BootOptions</value>
+  </data>
+  <data name="&gt;&gt;BootOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BootOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BootOptions.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="chkUseSDL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>140, 148</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 23</value>
   </data>
-  <data name="rbBootFromHDD.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
   </data>
-  <data name="&gt;&gt;chkUseHAXM.Type" xml:space="preserve">
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>网卡类型</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>NetworkOptions</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NetworkCardType.Items" xml:space="preserve">
+    <value>Intel 82574L (e1000e)</value>
+  </data>
+  <data name="NetworkCardType.Items1" xml:space="preserve">
+    <value>Novell NE2000 (ne2k_isa)</value>
+  </data>
+  <data name="NetworkCardType.Items2" xml:space="preserve">
+    <value>Realtek RTL8029 (en2k_pci)</value>
+  </data>
+  <data name="NetworkCardType.Items3" xml:space="preserve">
+    <value>Realtek RTL8139 (rtl8139)</value>
+  </data>
+  <data name="NetworkCardType.Items4" xml:space="preserve">
+    <value>Intel PRO1000/MT (e1000)</value>
+  </data>
+  <data name="NetworkCardType.Items5" xml:space="preserve">
+    <value>Red Hat Virtio (virtio)</value>
+  </data>
+  <data name="NetworkCardType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="NetworkCardType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 25</value>
+  </data>
+  <data name="NetworkCardType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="NetworkCardType.Text" xml:space="preserve">
+    <value>Intel 82574L (e1000e)</value>
+  </data>
+  <data name="&gt;&gt;NetworkCardType.Name" xml:space="preserve">
+    <value>NetworkCardType</value>
+  </data>
+  <data name="&gt;&gt;NetworkCardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetworkCardType.Parent" xml:space="preserve">
+    <value>NetworkOptions</value>
+  </data>
+  <data name="&gt;&gt;NetworkCardType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EnbaleNetUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EnbaleNetUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 22</value>
+  </data>
+  <data name="EnbaleNetUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 21</value>
+  </data>
+  <data name="EnbaleNetUser.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="EnbaleNetUser.Text" xml:space="preserve">
+    <value>启用网络（只能用户模式）</value>
+  </data>
+  <data name="&gt;&gt;EnbaleNetUser.Name" xml:space="preserve">
+    <value>EnbaleNetUser</value>
+  </data>
+  <data name="&gt;&gt;EnbaleNetUser.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtCDROMPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;EnbaleNetUser.Parent" xml:space="preserve">
+    <value>NetworkOptions</value>
   </data>
-  <data name="&gt;&gt;btnBrowseQEMU.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;EnbaleNetUser.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NetworkOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 438</value>
+  </data>
+  <data name="NetworkOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 58</value>
+  </data>
+  <data name="NetworkOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="NetworkOptions.Text" xml:space="preserve">
+    <value>网络选项</value>
+  </data>
+  <data name="&gt;&gt;NetworkOptions.Name" xml:space="preserve">
+    <value>NetworkOptions</value>
+  </data>
+  <data name="&gt;&gt;NetworkOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NetworkOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NetworkOptions.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="EnableSoundCard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EnableSoundCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
+  </data>
+  <data name="EnableSoundCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
+  </data>
+  <data name="EnableSoundCard.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
-  <data name="&gt;&gt;ReadConfigure.Name" xml:space="preserve">
-    <value>ReadConfigure</value>
+  <data name="EnableSoundCard.Text" xml:space="preserve">
+    <value>是否启用声卡</value>
+  </data>
+  <data name="&gt;&gt;EnableSoundCard.Name" xml:space="preserve">
+    <value>EnableSoundCard</value>
+  </data>
+  <data name="&gt;&gt;EnableSoundCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableSoundCard.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;EnableSoundCard.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="CPUThreads.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CPUThreads.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CPUThreads.Items2" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CPUThreads.Items3" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CPUThreads.Items4" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="CPUThreads.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 186</value>
+  </data>
+  <data name="CPUThreads.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 25</value>
+  </data>
+  <data name="CPUThreads.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="CPUThreads.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CPUThreads.Name" xml:space="preserve">
+    <value>CPUThreads</value>
+  </data>
+  <data name="&gt;&gt;CPUThreads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUThreads.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;CPUThreads.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 186</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>处理器核心数：</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CPUModel.Items" xml:space="preserve">
+    <value>486</value>
+  </data>
+  <data name="CPUModel.Items1" xml:space="preserve">
+    <value>486-v1</value>
+  </data>
+  <data name="CPUModel.Items2" xml:space="preserve">
+    <value>Broadwell</value>
+  </data>
+  <data name="CPUModel.Items3" xml:space="preserve">
+    <value>Broadwell-IBRS</value>
+  </data>
+  <data name="CPUModel.Items4" xml:space="preserve">
+    <value>Broadwell-noTSX</value>
+  </data>
+  <data name="CPUModel.Items5" xml:space="preserve">
+    <value>Broadwell-noTSX-IBRS</value>
+  </data>
+  <data name="CPUModel.Items6" xml:space="preserve">
+    <value>Broadwell-v1</value>
+  </data>
+  <data name="CPUModel.Items7" xml:space="preserve">
+    <value>Broadwell-v2</value>
+  </data>
+  <data name="CPUModel.Items8" xml:space="preserve">
+    <value>Broadwell-v3</value>
+  </data>
+  <data name="CPUModel.Items9" xml:space="preserve">
+    <value>Broadwell-v4</value>
+  </data>
+  <data name="CPUModel.Items10" xml:space="preserve">
+    <value>Cascadelake-Server</value>
+  </data>
+  <data name="CPUModel.Items11" xml:space="preserve">
+    <value>Cascadelake-Server-noTSX</value>
+  </data>
+  <data name="CPUModel.Items12" xml:space="preserve">
+    <value>Cascadelake-Server-v1</value>
+  </data>
+  <data name="CPUModel.Items13" xml:space="preserve">
+    <value>Cascadelake-Server-v2</value>
+  </data>
+  <data name="CPUModel.Items14" xml:space="preserve">
+    <value>Cascadelake-Server-v3</value>
+  </data>
+  <data name="CPUModel.Items15" xml:space="preserve">
+    <value>Cascadelake-Server-v4</value>
+  </data>
+  <data name="CPUModel.Items16" xml:space="preserve">
+    <value>Cascadelake-Server-v5</value>
+  </data>
+  <data name="CPUModel.Items17" xml:space="preserve">
+    <value>Conroe</value>
+  </data>
+  <data name="CPUModel.Items18" xml:space="preserve">
+    <value>Conroe-v1</value>
+  </data>
+  <data name="CPUModel.Items19" xml:space="preserve">
+    <value>Cooperlake</value>
+  </data>
+  <data name="CPUModel.Items20" xml:space="preserve">
+    <value>Cooperlake-v1</value>
+  </data>
+  <data name="CPUModel.Items21" xml:space="preserve">
+    <value>Cooperlake-v2</value>
+  </data>
+  <data name="CPUModel.Items22" xml:space="preserve">
+    <value>Denverton</value>
+  </data>
+  <data name="CPUModel.Items23" xml:space="preserve">
+    <value>Denverton-v1</value>
+  </data>
+  <data name="CPUModel.Items24" xml:space="preserve">
+    <value>Denverton-v2</value>
+  </data>
+  <data name="CPUModel.Items25" xml:space="preserve">
+    <value>Denverton-v3</value>
+  </data>
+  <data name="CPUModel.Items26" xml:space="preserve">
+    <value>Dhyana</value>
+  </data>
+  <data name="CPUModel.Items27" xml:space="preserve">
+    <value>Dhyana-v1</value>
+  </data>
+  <data name="CPUModel.Items28" xml:space="preserve">
+    <value>Dhyana-v2</value>
+  </data>
+  <data name="CPUModel.Items29" xml:space="preserve">
+    <value>EPYC</value>
+  </data>
+  <data name="CPUModel.Items30" xml:space="preserve">
+    <value>EPYC-Genoa</value>
+  </data>
+  <data name="CPUModel.Items31" xml:space="preserve">
+    <value>EPYC-Genoa-v1</value>
+  </data>
+  <data name="CPUModel.Items32" xml:space="preserve">
+    <value>EPYC-IBPB</value>
+  </data>
+  <data name="CPUModel.Items33" xml:space="preserve">
+    <value>EPYC-Milan</value>
+  </data>
+  <data name="CPUModel.Items34" xml:space="preserve">
+    <value>EPYC-Milan-v1</value>
+  </data>
+  <data name="CPUModel.Items35" xml:space="preserve">
+    <value>EPYC-Milan-v2</value>
+  </data>
+  <data name="CPUModel.Items36" xml:space="preserve">
+    <value>EPYC-Rome</value>
+  </data>
+  <data name="CPUModel.Items37" xml:space="preserve">
+    <value>EPYC-Rome-v1</value>
+  </data>
+  <data name="CPUModel.Items38" xml:space="preserve">
+    <value>EPYC-Rome-v2</value>
+  </data>
+  <data name="CPUModel.Items39" xml:space="preserve">
+    <value>EPYC-Rome-v3</value>
+  </data>
+  <data name="CPUModel.Items40" xml:space="preserve">
+    <value>EPYC-Rome-v4</value>
+  </data>
+  <data name="CPUModel.Items41" xml:space="preserve">
+    <value>EPYC-v1</value>
+  </data>
+  <data name="CPUModel.Items42" xml:space="preserve">
+    <value>EPYC-v2</value>
+  </data>
+  <data name="CPUModel.Items43" xml:space="preserve">
+    <value>EPYC-v3</value>
+  </data>
+  <data name="CPUModel.Items44" xml:space="preserve">
+    <value>EPYC-v4</value>
+  </data>
+  <data name="CPUModel.Items45" xml:space="preserve">
+    <value>GraniteRapids</value>
+  </data>
+  <data name="CPUModel.Items46" xml:space="preserve">
+    <value>GraniteRapids-v1</value>
+  </data>
+  <data name="CPUModel.Items47" xml:space="preserve">
+    <value>Haswell</value>
+  </data>
+  <data name="CPUModel.Items48" xml:space="preserve">
+    <value>Haswell-IBRS</value>
+  </data>
+  <data name="CPUModel.Items49" xml:space="preserve">
+    <value>Haswell-noTSX</value>
+  </data>
+  <data name="CPUModel.Items50" xml:space="preserve">
+    <value>Haswell-noTSX-IBRS</value>
+  </data>
+  <data name="CPUModel.Items51" xml:space="preserve">
+    <value>Haswell-v1</value>
+  </data>
+  <data name="CPUModel.Items52" xml:space="preserve">
+    <value>Haswell-v2</value>
+  </data>
+  <data name="CPUModel.Items53" xml:space="preserve">
+    <value>Haswell-v3</value>
+  </data>
+  <data name="CPUModel.Items54" xml:space="preserve">
+    <value>Haswell-v4</value>
+  </data>
+  <data name="CPUModel.Items55" xml:space="preserve">
+    <value>Icelake-Server</value>
+  </data>
+  <data name="CPUModel.Items56" xml:space="preserve">
+    <value>Icelake-Server-noTSX</value>
+  </data>
+  <data name="CPUModel.Items57" xml:space="preserve">
+    <value>Icelake-Server-v1</value>
+  </data>
+  <data name="CPUModel.Items58" xml:space="preserve">
+    <value>Icelake-Server-v2</value>
+  </data>
+  <data name="CPUModel.Items59" xml:space="preserve">
+    <value>Icelake-Server-v3</value>
+  </data>
+  <data name="CPUModel.Items60" xml:space="preserve">
+    <value>Icelake-Server-v4</value>
+  </data>
+  <data name="CPUModel.Items61" xml:space="preserve">
+    <value>Icelake-Server-v5</value>
+  </data>
+  <data name="CPUModel.Items62" xml:space="preserve">
+    <value>Icelake-Server-v6</value>
+  </data>
+  <data name="CPUModel.Items63" xml:space="preserve">
+    <value>IvyBridge</value>
+  </data>
+  <data name="CPUModel.Items64" xml:space="preserve">
+    <value>IvyBridge-IBRS</value>
+  </data>
+  <data name="CPUModel.Items65" xml:space="preserve">
+    <value>IvyBridge-v1</value>
+  </data>
+  <data name="CPUModel.Items66" xml:space="preserve">
+    <value>IvyBridge-v2</value>
+  </data>
+  <data name="CPUModel.Items67" xml:space="preserve">
+    <value>KnightsMill</value>
+  </data>
+  <data name="CPUModel.Items68" xml:space="preserve">
+    <value>KnightsMill-v1</value>
+  </data>
+  <data name="CPUModel.Items69" xml:space="preserve">
+    <value>Nehalem</value>
+  </data>
+  <data name="CPUModel.Items70" xml:space="preserve">
+    <value>Nehalem-IBRS</value>
+  </data>
+  <data name="CPUModel.Items71" xml:space="preserve">
+    <value>Nehalem-v1</value>
+  </data>
+  <data name="CPUModel.Items72" xml:space="preserve">
+    <value>Nehalem-v2</value>
+  </data>
+  <data name="CPUModel.Items73" xml:space="preserve">
+    <value>Opteron_G1</value>
+  </data>
+  <data name="CPUModel.Items74" xml:space="preserve">
+    <value>Opteron_G1-v1</value>
+  </data>
+  <data name="CPUModel.Items75" xml:space="preserve">
+    <value>Opteron_G2</value>
+  </data>
+  <data name="CPUModel.Items76" xml:space="preserve">
+    <value>Opteron_G2-v1</value>
+  </data>
+  <data name="CPUModel.Items77" xml:space="preserve">
+    <value>Opteron_G3</value>
+  </data>
+  <data name="CPUModel.Items78" xml:space="preserve">
+    <value>Opteron_G3-v1</value>
+  </data>
+  <data name="CPUModel.Items79" xml:space="preserve">
+    <value>Opteron_G4</value>
+  </data>
+  <data name="CPUModel.Items80" xml:space="preserve">
+    <value>Opteron_G4-v1</value>
+  </data>
+  <data name="CPUModel.Items81" xml:space="preserve">
+    <value>Opteron_G5</value>
+  </data>
+  <data name="CPUModel.Items82" xml:space="preserve">
+    <value>Opteron_G5-v1</value>
+  </data>
+  <data name="CPUModel.Items83" xml:space="preserve">
+    <value>Penryn</value>
+  </data>
+  <data name="CPUModel.Items84" xml:space="preserve">
+    <value>Penryn-v1</value>
+  </data>
+  <data name="CPUModel.Items85" xml:space="preserve">
+    <value>SandyBridge</value>
+  </data>
+  <data name="CPUModel.Items86" xml:space="preserve">
+    <value>SandyBridge-IBRS</value>
+  </data>
+  <data name="CPUModel.Items87" xml:space="preserve">
+    <value>SandyBridge-v1</value>
+  </data>
+  <data name="CPUModel.Items88" xml:space="preserve">
+    <value>SandyBridge-v2</value>
+  </data>
+  <data name="CPUModel.Items89" xml:space="preserve">
+    <value>SapphireRapids</value>
+  </data>
+  <data name="CPUModel.Items90" xml:space="preserve">
+    <value>SapphireRapids-v1</value>
+  </data>
+  <data name="CPUModel.Items91" xml:space="preserve">
+    <value>SapphireRapids-v2</value>
+  </data>
+  <data name="CPUModel.Items92" xml:space="preserve">
+    <value>Skylake-Client</value>
+  </data>
+  <data name="CPUModel.Items93" xml:space="preserve">
+    <value>Skylake-Client-IBRS</value>
+  </data>
+  <data name="CPUModel.Items94" xml:space="preserve">
+    <value>Skylake-Client-noTSX-IBRS</value>
+  </data>
+  <data name="CPUModel.Items95" xml:space="preserve">
+    <value>Skylake-Client-v1</value>
+  </data>
+  <data name="CPUModel.Items96" xml:space="preserve">
+    <value>Skylake-Client-v2</value>
+  </data>
+  <data name="CPUModel.Items97" xml:space="preserve">
+    <value>Skylake-Client-v3</value>
+  </data>
+  <data name="CPUModel.Items98" xml:space="preserve">
+    <value>Skylake-Client-v4</value>
+  </data>
+  <data name="CPUModel.Items99" xml:space="preserve">
+    <value>Skylake-Server</value>
+  </data>
+  <data name="CPUModel.Items100" xml:space="preserve">
+    <value>Skylake-Server-IBRS</value>
+  </data>
+  <data name="CPUModel.Items101" xml:space="preserve">
+    <value>Skylake-Server-noTSX-IBRS</value>
+  </data>
+  <data name="CPUModel.Items102" xml:space="preserve">
+    <value>Skylake-Server-v1</value>
+  </data>
+  <data name="CPUModel.Items103" xml:space="preserve">
+    <value>Skylake-Server-v2</value>
+  </data>
+  <data name="CPUModel.Items104" xml:space="preserve">
+    <value>Skylake-Server-v3</value>
+  </data>
+  <data name="CPUModel.Items105" xml:space="preserve">
+    <value>Skylake-Server-v4</value>
+  </data>
+  <data name="CPUModel.Items106" xml:space="preserve">
+    <value>Skylake-Server-v5</value>
+  </data>
+  <data name="CPUModel.Items107" xml:space="preserve">
+    <value>Snowridge</value>
+  </data>
+  <data name="CPUModel.Items108" xml:space="preserve">
+    <value>Snowridge-v1</value>
+  </data>
+  <data name="CPUModel.Items109" xml:space="preserve">
+    <value>Snowridge-v2</value>
+  </data>
+  <data name="CPUModel.Items110" xml:space="preserve">
+    <value>Snowridge-v3</value>
+  </data>
+  <data name="CPUModel.Items111" xml:space="preserve">
+    <value>Snowridge-v4</value>
+  </data>
+  <data name="CPUModel.Items112" xml:space="preserve">
+    <value>Westmere</value>
+  </data>
+  <data name="CPUModel.Items113" xml:space="preserve">
+    <value>Westmere-IBRS</value>
+  </data>
+  <data name="CPUModel.Items114" xml:space="preserve">
+    <value>Westmere-v1</value>
+  </data>
+  <data name="CPUModel.Items115" xml:space="preserve">
+    <value>Westmere-v2</value>
+  </data>
+  <data name="CPUModel.Items116" xml:space="preserve">
+    <value>athlon</value>
+  </data>
+  <data name="CPUModel.Items117" xml:space="preserve">
+    <value>athlon-v1</value>
+  </data>
+  <data name="CPUModel.Items118" xml:space="preserve">
+    <value>core2duo</value>
+  </data>
+  <data name="CPUModel.Items119" xml:space="preserve">
+    <value>core2duo-v1</value>
+  </data>
+  <data name="CPUModel.Items120" xml:space="preserve">
+    <value>coreduo</value>
+  </data>
+  <data name="CPUModel.Items121" xml:space="preserve">
+    <value>coreduo-v1</value>
+  </data>
+  <data name="CPUModel.Items122" xml:space="preserve">
+    <value>kvm32</value>
+  </data>
+  <data name="CPUModel.Items123" xml:space="preserve">
+    <value>kvm32-v1</value>
+  </data>
+  <data name="CPUModel.Items124" xml:space="preserve">
+    <value>kvm64</value>
+  </data>
+  <data name="CPUModel.Items125" xml:space="preserve">
+    <value>kvm64-v1</value>
+  </data>
+  <data name="CPUModel.Items126" xml:space="preserve">
+    <value>n270</value>
+  </data>
+  <data name="CPUModel.Items127" xml:space="preserve">
+    <value>n270-v1</value>
+  </data>
+  <data name="CPUModel.Items128" xml:space="preserve">
+    <value>pentium</value>
+  </data>
+  <data name="CPUModel.Items129" xml:space="preserve">
+    <value>pentium-v1</value>
+  </data>
+  <data name="CPUModel.Items130" xml:space="preserve">
+    <value>pentium2</value>
+  </data>
+  <data name="CPUModel.Items131" xml:space="preserve">
+    <value>pentium2-v1</value>
+  </data>
+  <data name="CPUModel.Items132" xml:space="preserve">
+    <value>pentium3</value>
+  </data>
+  <data name="CPUModel.Items133" xml:space="preserve">
+    <value>pentium3-v1</value>
+  </data>
+  <data name="CPUModel.Items134" xml:space="preserve">
+    <value>phenom</value>
+  </data>
+  <data name="CPUModel.Items135" xml:space="preserve">
+    <value>phenom-v1</value>
+  </data>
+  <data name="CPUModel.Items136" xml:space="preserve">
+    <value>qemu32</value>
+  </data>
+  <data name="CPUModel.Items137" xml:space="preserve">
+    <value>qemu32-v1</value>
+  </data>
+  <data name="CPUModel.Items138" xml:space="preserve">
+    <value>qemu64</value>
+  </data>
+  <data name="CPUModel.Items139" xml:space="preserve">
+    <value>qemu64-v1</value>
+  </data>
+  <data name="CPUModel.Items140" xml:space="preserve">
+    <value>base</value>
+  </data>
+  <data name="CPUModel.Items141" xml:space="preserve">
+    <value>max</value>
+  </data>
+  <data name="CPUModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 155</value>
+  </data>
+  <data name="CPUModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 25</value>
+  </data>
+  <data name="CPUModel.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="CPUModel.Text" xml:space="preserve">
+    <value>Haswell</value>
+  </data>
+  <data name="&gt;&gt;CPUModel.Name" xml:space="preserve">
+    <value>CPUModel</value>
+  </data>
+  <data name="&gt;&gt;CPUModel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUModel.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;CPUModel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 155</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>处理器型号：</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MemSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 126</value>
+  </data>
+  <data name="MemSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 23</value>
+  </data>
+  <data name="MemSize.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="MemSize.Text" xml:space="preserve">
+    <value>1G</value>
+  </data>
+  <data name="&gt;&gt;MemSize.Name" xml:space="preserve">
+    <value>MemSize</value>
+  </data>
+  <data name="&gt;&gt;MemSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemSize.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;MemSize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 126</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>内存大小：</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="MachineType.Items" xml:space="preserve">
+    <value>i440fx</value>
+  </data>
+  <data name="MachineType.Items1" xml:space="preserve">
+    <value>q35</value>
+  </data>
+  <data name="MachineType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 95</value>
+  </data>
+  <data name="MachineType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 25</value>
+  </data>
+  <data name="MachineType.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="MachineType.Text" xml:space="preserve">
+    <value>i440fx</value>
+  </data>
+  <data name="&gt;&gt;MachineType.Name" xml:space="preserve">
+    <value>MachineType</value>
+  </data>
+  <data name="&gt;&gt;MachineType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MachineType.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;MachineType.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 97</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>机器类型：</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="VideocardModel.Items" xml:space="preserve">
+    <value>Cirrus 5446 PCI</value>
+  </data>
+  <data name="VideocardModel.Items1" xml:space="preserve">
+    <value>Red Hat QXL</value>
+  </data>
+  <data name="VideocardModel.Items2" xml:space="preserve">
+    <value>Red Hat Virtio</value>
+  </data>
+  <data name="VideocardModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 64</value>
+  </data>
+  <data name="VideocardModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 25</value>
+  </data>
+  <data name="VideocardModel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="VideocardModel.Text" xml:space="preserve">
+    <value>Cirrus 5446 PCI</value>
+  </data>
+  <data name="&gt;&gt;VideocardModel.Name" xml:space="preserve">
+    <value>VideocardModel</value>
+  </data>
+  <data name="&gt;&gt;VideocardModel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VideocardModel.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;VideocardModel.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 67</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>显卡类型：</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SoundcardModel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="SoundcardModel.Items" xml:space="preserve">
+    <value>Creative SB16</value>
+  </data>
+  <data name="SoundcardModel.Items1" xml:space="preserve">
+    <value>Intel 82801AA AC97</value>
+  </data>
+  <data name="SoundcardModel.Items2" xml:space="preserve">
+    <value>Intel ICH6 HDA</value>
+  </data>
+  <data name="SoundcardModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 26</value>
+  </data>
+  <data name="SoundcardModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="SoundcardModel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="SoundcardModel.Text" xml:space="preserve">
+    <value>Creative SB16</value>
+  </data>
+  <data name="&gt;&gt;SoundcardModel.Name" xml:space="preserve">
+    <value>SoundcardModel</value>
+  </data>
+  <data name="&gt;&gt;SoundcardModel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SoundcardModel.Parent" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;SoundcardModel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="HardwareOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 11</value>
+  </data>
+  <data name="HardwareOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 225</value>
+  </data>
+  <data name="HardwareOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="HardwareOptions.Text" xml:space="preserve">
+    <value>硬件选项</value>
+  </data>
+  <data name="&gt;&gt;HardwareOptions.Name" xml:space="preserve">
+    <value>HardwareOptions</value>
+  </data>
+  <data name="&gt;&gt;HardwareOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HardwareOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HardwareOptions.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SyncHostClock.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SyncHostClock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>503, 148</value>
+  </data>
+  <data name="SyncHostClock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
+  </data>
+  <data name="SyncHostClock.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="SyncHostClock.Text" xml:space="preserve">
+    <value>同步主机时钟</value>
+  </data>
+  <data name="&gt;&gt;SyncHostClock.Name" xml:space="preserve">
+    <value>SyncHostClock</value>
+  </data>
+  <data name="&gt;&gt;SyncHostClock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SyncHostClock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SyncHostClock.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="EnableVirtIODisk.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EnableVirtIODisk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="EnableVirtIODisk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 117</value>
+  </data>
+  <data name="EnableVirtIODisk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 21</value>
+  </data>
+  <data name="EnableVirtIODisk.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="EnableVirtIODisk.Text" xml:space="preserve">
+    <value>启用VirtIO SCSI硬盘控制器</value>
+  </data>
+  <data name="&gt;&gt;EnableVirtIODisk.Name" xml:space="preserve">
+    <value>EnableVirtIODisk</value>
+  </data>
+  <data name="&gt;&gt;EnableVirtIODisk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EnableVirtIODisk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EnableVirtIODisk.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>867, 482</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>V1.0.0 By Starmoe</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SaveConfigure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 438</value>
+  </data>
+  <data name="SaveConfigure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="SaveConfigure.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="SaveConfigure.Text" xml:space="preserve">
+    <value>保存配置</value>
+  </data>
+  <data name="&gt;&gt;SaveConfigure.Name" xml:space="preserve">
+    <value>SaveConfigure</value>
+  </data>
+  <data name="&gt;&gt;SaveConfigure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveConfigure.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SaveConfigure.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ReadConfigure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>805, 438</value>
+  </data>
+  <data name="ReadConfigure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 27</value>
+  </data>
+  <data name="ReadConfigure.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="ReadConfigure.Text" xml:space="preserve">
+    <value>读取配置</value>
+  </data>
+  <data name="&gt;&gt;ReadConfigure.Name" xml:space="preserve">
+    <value>ReadConfigure</value>
+  </data>
+  <data name="&gt;&gt;ReadConfigure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReadConfigure.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReadConfigure.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnHotSwap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 193</value>
+  </data>
+  <data name="btnHotSwap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 31</value>
+  </data>
+  <data name="btnHotSwap.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnHotSwap.Text" xml:space="preserve">
+    <value>热切换管理器</value>
+  </data>
+  <data name="&gt;&gt;btnHotSwap.Name" xml:space="preserve">
+    <value>btnHotSwap</value>
+  </data>
+  <data name="&gt;&gt;btnHotSwap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHotSwap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnHotSwap.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>zh-Hans-CN</value>
-  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>993, 508</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>QEMU 管理器</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
