@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\RiderProjects\\QEMU-Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA86766C-2A0C-466D-8F37-CBD79B1EECCD}|QEMUMnanger.csproj|d:\\riderprojects\\qemu-manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA86766C-2A0C-466D-8F37-CBD79B1EECCD}|QEMUMnanger.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA86766C-2A0C-466D-8F37-CBD79B1EECCD}|QEMUMnanger.csproj|d:\\riderprojects\\qemu-manager\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA86766C-2A0C-466D-8F37-CBD79B1EECCD}|QEMUMnanger.csproj|solutionrelative:manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA86766C-2A0C-466D-8F37-CBD79B1EECCD}|QEMUMnanger.csproj|d:\\riderprojects\\qemu-manager\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EA86766C-2A0C-466D-8F37-CBD79B1EECCD}|QEMUMnanger.csproj|d:\\riderprojects\\qemu-manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA86766C-2A0C-466D-8F37-CBD79B1EECCD}|QEMUMnanger.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA86766C-2A0C-466D-8F37-CBD79B1EECCD}|QEMUMnanger.csproj|D:\\RiderProjects\\QEMU-Manager\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA86766C-2A0C-466D-8F37-CBD79B1EECCD}|QEMUMnanger.csproj|solutionrelative:manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,43 +46,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\RiderProjects\\QEMU-Manager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\RiderProjects\\QEMU-Manager\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T15:20:26.884Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HotSwapManager.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\RiderProjects\\QEMU-Manager\\HotSwapManager.cs",
-              "RelativeDocumentMoniker": "HotSwapManager.cs",
-              "ToolTip": "D:\\RiderProjects\\QEMU-Manager\\HotSwapManager.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "HotSwapManager.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T23:53:24.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Manager.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\RiderProjects\\QEMU-Manager\\Manager.cs",
-              "RelativeDocumentMoniker": "Manager.cs",
-              "ToolTip": "D:\\RiderProjects\\QEMU-Manager\\Manager.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "Manager.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T13:55:52.169Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
@@ -94,8 +67,7 @@
               "RelativeToolTip": "HotSwapManager.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T23:53:30.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T23:53:30.627Z"
             },
             {
               "$type": "Document",
@@ -124,16 +96,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Manager.cs",
               "DocumentMoniker": "D:\\RiderProjects\\QEMU-Manager\\Manager.cs",
               "RelativeDocumentMoniker": "Manager.cs",
               "ToolTip": "D:\\RiderProjects\\QEMU-Manager\\Manager.cs",
               "RelativeToolTip": "Manager.cs",
-              "ViewState": "AgIAADEBAAAAAAAAAAAAAEYBAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAAAMkBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T13:49:55.518Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotSwapManager.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\RiderProjects\\QEMU-Manager\\HotSwapManager.cs",
+              "RelativeDocumentMoniker": "HotSwapManager.cs",
+              "ToolTip": "D:\\RiderProjects\\QEMU-Manager\\HotSwapManager.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HotSwapManager.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T23:53:24.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manager.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\RiderProjects\\QEMU-Manager\\Manager.cs",
+              "RelativeDocumentMoniker": "Manager.cs",
+              "ToolTip": "D:\\RiderProjects\\QEMU-Manager\\Manager.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Manager.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T13:55:52.169Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             }
           ]
         }

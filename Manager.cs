@@ -312,11 +312,20 @@ namespace QEMUManager
                     writer.WriteLine($"VideocardModel={VideocardModel.Text}");
                     writer.WriteLine($"SoundcardModel={SoundcardModel.Text}");
                     writer.WriteLine($"EnableUSB={chkEnableUSB.Checked}");
+                    writer.WriteLine($"EnableUSBKeyboard={EnableUSBKeyboard.Checked}");
+                    writer.WriteLine($"EnableUSBTablet={EnableUSBTablet.Checked}");
+                    writer.WriteLine($"EnableUSBMouse={EnableUSBMouse.Checked}");
+                    writer.WriteLine($"EnableUSBMass={EnableUSBMass.Checked}");
                     writer.WriteLine($"EnableSoundCard={EnableSoundCard.Checked}");
                     writer.WriteLine($"EnableVirtIODisk={EnableVirtIODisk.Checked}");
+                    writer.WriteLine($"EnableSerial={EnableSerial.Checked}");
+                    writer.WriteLine($"EnableRNG={EnableRNG.Checked}");
+                    writer.WriteLine($"EnableBalloon={EnableBalloon.Checked}");
                     writer.WriteLine($"SyncHostClock={SyncHostClock.Checked}");
+                    writer.WriteLine($"EnableNetUser={EnbaleNetUser.Checked}");
                     writer.WriteLine($"NetworkCardType={NetworkCardType.Text}");
-                    writer.WriteLine($"EnbaleNetUser={EnbaleNetUser.Checked}");
+                    writer.WriteLine($"BootType={Boot.Text}");
+                    writer.WriteLine($"FirmwarePath={FirmwarePath.Text}");
                     writer.WriteLine($"CPUModel={CPUModel.Text}");
                     writer.WriteLine($"CPUThreads={CPUThreads.Text}");
                 }
@@ -374,6 +383,22 @@ namespace QEMUManager
                             {
                                 chkEnableUSB.Checked = bool.Parse(line.Split('=')[1]);
                             }
+                            else if (line.StartsWith("EnableUSBKeyboard="))
+                            {
+                                EnableUSBKeyboard.Checked = bool.Parse(line.Split('=')[1]);
+                            }
+                            else if (line.StartsWith("EnableUSBTablet="))
+                            {
+                                EnableUSBTablet.Checked = bool.Parse(line.Split('=')[1]);
+                            }
+                            else if (line.StartsWith("EnableUSBMouse="))
+                            {
+                                EnableUSBMouse.Checked = bool.Parse(line.Split('=')[1]);
+                            }
+                            else if (line.StartsWith("EnableUSBMass="))
+                            {
+                                EnableUSBMass.Checked = bool.Parse(line.Split('=')[1]);
+                            }
                             else if (line.StartsWith("EnableSoundCard="))
                             {
                                 EnableSoundCard.Checked = bool.Parse(line.Split('=')[1]);
@@ -382,17 +407,37 @@ namespace QEMUManager
                             {
                                 EnableVirtIODisk.Checked = bool.Parse(line.Split('=')[1]);
                             }
+                            else if (line.StartsWith("EnableSerial="))
+                            {
+                                EnableSerial.Checked = bool.Parse(line.Split('=')[1]);
+                            }
+                            else if (line.StartsWith("EnableRNG="))
+                            {
+                                EnableRNG.Checked = bool.Parse(line.Split('=')[1]);
+                            }
+                            else if (line.StartsWith("EnableBalloon="))
+                            {
+                                EnableBalloon.Checked = bool.Parse(line.Split('=')[1]);
+                            }
                             else if (line.StartsWith("SyncHostClock="))
                             {
                                 SyncHostClock.Checked = bool.Parse(line.Split('=')[1]);
+                            }
+                            else if (line.StartsWith("EnableNetUser="))
+                            {
+                                EnbaleNetUser.Checked = bool.Parse(line.Split('=')[1]);
                             }
                             else if (line.StartsWith("NetworkCardType="))
                             {
                                 NetworkCardType.Text = line.Split('=')[1];
                             }
-                            else if (line.StartsWith("EnbaleNetUser="))
+                            else if (line.StartsWith("BootType="))
                             {
-                                EnbaleNetUser.Checked = bool.Parse(line.Split('=')[1]);
+                                Boot.Text = line.Split('=')[1];
+                            }
+                            else if (line.StartsWith("FirmwarePath="))
+                            {
+                                FirmwarePath.Text = line.Split('=')[1];
                             }
                             else if (line.StartsWith("CPUModel="))
                             {
